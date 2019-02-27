@@ -1,0 +1,6 @@
+rm -R dist/
+git pull
+git fetch
+ng build
+cp -R dist/thetixs/ ../html/
+chmod 7777 -R ../html/thetixs
